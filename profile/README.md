@@ -8,7 +8,7 @@ This repo serves as the operational and planning hub for the business — includ
 
 ---
 
-## 🧭 What We’re Building
+## What We’re Building
 
 - **Phase 1 – Validate**  
   - Talk to customers (roasters, cafes, retailers)  
@@ -23,29 +23,9 @@ This repo serves as the operational and planning hub for the business — includ
   - Scale imports, finalize in-house roasting strategy  
   - Launch B2C brand (subscription, direct)  
   - Begin packaging and warehouse optimization  
-
-All phases are tracked and checklisted inside [`phase_checklist.md`](./phase_checklist.md) and synced to GitHub Issues.
-
 ---
 
-## 📁 Repository Layout
-
-This org uses a modular monorepo approach to keep planning, prompts, and operations aligned.
-
-```
-PullRequestCoffee/
-├── brand/               → Label mockups, naming brainstorms, Midjourney prompts
-├── data/                → Market research, interview summaries, supplier docs
-├── operations/          → Regulatory checklists, invoices, shipping templates, SOPs
-├── prompts/             → AI prompt packages for branding, outreach, storytelling
-├── tools/               → Sync scripts, roadmap automation, GitHub Issue tools
-├── roadmap.md           → Canonical roadmap (mirrored in GitHub Issues)
-└── phase_checklist.md   → Phase 1–3 validation checkpoints and gating criteria
-```
-
----
-
-## 📌 Current Focus (April 2025)
+## Current Focus (April 2025)
 
 We are in **Phase 1: Validation & Setup**. Key tasks in progress:
 
@@ -59,7 +39,7 @@ Target: First pilot shipment ordered and customer LOIs secured by **Day 90**.
 
 ---
 
-## 📈 Business Model Highlights
+## Business Model Highlights
 
 - **Import-first, roast-second** → We unlock margin later by layering on value-add  
 - **B2B & B2C split** → Wholesale to roasters/cafés, then direct-to-consumer roasting  
@@ -68,7 +48,7 @@ Target: First pilot shipment ordered and customer LOIs secured by **Day 90**.
 
 ---
 
-## 🧩 How to Contribute
+## How to Contribute
 
 Founders are running this project in public (as much as practical).  
 If you're a designer, developer, roaster, or logistics nerd — we’d love to hear from you.  
