@@ -1,63 +1,53 @@
 # Pull Request Coffee
 
-**Pull Request Coffee** is a Canadian specialty coffee import and roasting company built by technologists and operators who love clean logistics, transparent supply chains, and good beans.
+**Pull Request Coffee** is a Canadian coffee import and roasting company founded by technologists and operators who care deeply about transparent supply chains, ethical sourcing, and excellent coffee. We're building a vertically integrated, modern coffee venture that blends farm-level traceability with developer-style workflows and clean operational execution.
 
-We started as a lean import-first venture focused on supplying indie roasters and specialty cafés — but we're building toward a full-stack coffee brand: from farm-level traceability to roasted retail products and a community of subscription customers.
-
-This repo serves as the operational and planning hub for the business — including market research, regulatory setup, supplier outreach, and roadmap tooling.
+This repository serves as the central planning hub for the business — combining market research, regulatory setup, brand development, financial modeling, and roadmap tooling into a single, source-controlled workspace.
 
 ---
 
-## What We’re Building
+## Vision
 
-- **Phase 1 – Validate**  
-  - Talk to customers (roasters, cafes, retailers)  
-  - Vet 3–5 suppliers and sample green coffee  
-  - Lock in regulatory compliance & logistics partners  
+We're building a full-stack coffee operation, beginning with import logistics and scaling toward finished products and direct customer relationships. The business model is designed to support:
 
-- **Phase 2 – Import & Pilot**  
-  - First small-batch import (LCL)  
-  - Fulfill B2B orders, test pricing, refine ops  
+- **Ethical Imports + Supplier Visibility**  
+  Small-lot green coffee sourced from trusted origin partners with transparent pricing and certifications.
 
-- **Phase 3 – Expand & Roast**  
-  - Scale imports, finalize in-house roasting strategy  
-  - Launch B2C brand (subscription, direct)  
-  - Begin packaging and warehouse optimization  
----
+- **Roaster-Friendly Distribution**  
+  Logistics and lot sizes designed for independent Canadian roasters — not just national chains.
 
-## Current Focus (April 2025)
+- **Modern Tooling for an Old-School Industry**  
+  Prompt-driven content systems, roadmap sync to GitHub, and traceable operations powered by open-source-style thinking.
 
-We are in **Phase 1: Validation & Setup**. Key tasks in progress:
-
-- Conducting coffee shop discovery interviews ([questions here](./data/market-validation/discovery_questions.md))  
-- Requesting quotes and samples from 3–5 origin suppliers  
-- Drafting import compliance checklist (BN, CFIA, SFCR, labeling rules)  
-- Building a lightweight brand story & visual direction  
-- Preparing pricing model and gross margin calculator  
-
-Target: First pilot shipment ordered and customer LOIs secured by **Day 90**.
+- **Roasting, Branding, and Direct Sales (Phase 3)**  
+  A full Canadian coffee brand offering roasted product SKUs via B2B and B2C channels.
 
 ---
 
-## Business Model Highlights
+## Repo Contents
 
-- **Import-first, roast-second** → We unlock margin later by layering on value-add  
-- **B2B & B2C split** → Wholesale to roasters/cafés, then direct-to-consumer roasting  
-- **Hybrid finance model** → Private investment + operating line or commercial loan  
-- **Shareholder perks** → Dividend model includes roasted coffee
+All planning and operational materials live inside `operations/`:
 
----
-
-## How to Contribute
-
-Founders are running this project in public (as much as practical).  
-If you're a designer, developer, roaster, or logistics nerd — we’d love to hear from you.  
-Open a GitHub Issue, or [email us](mailto:team@pullrequest.coffee) to get involved.
+- `brand/` — Visual identity including logos, palettes, labels, typography
+- `data/` — Market validation inputs, discovery interviews, and field notes
+- `docs/` — Business research, SOPs, roadmap documentation
+- `legal/` — CFIA, SFCR, and customs compliance work
+- `prompts/` — Structured YAML packages for automation and document generation
+- `spreadsheets/` — Pricing tables, landed cost models, and capex planning
+- `templates/` — Outreach emails, agreements, and repeatable documentation
+- `tools/` — CLI utilities and roadmap automation for GitHub workflows
 
 ---
 
-## ☕️ About the Name
+## Status
 
-> “Pull Request Coffee” is a nod to developer workflows — collaborative, transparent, and always improving.
+We are currently in **Phase 1: Validation + Setup**.  
+The primary focus is validating market demand, securing supply channels, and preparing for an import pilot.
 
-We apply that ethos to how we build the business. From sourcing to branding to delivery.
+---
+
+## Contributing
+
+This project is being developed in public, with transparency as a core principle.  
+Designers, roasters, developers, logistics operators — your insight is welcome.  
+Reach out via GitHub Issue or email `team@pullrequest.coffee` if you'd like to contribute.
